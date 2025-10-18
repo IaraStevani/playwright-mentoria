@@ -11,9 +11,6 @@ Este repositório foi desenvolvido com o objetivo de servir como um **guia prát
 
 Para configurar e executar os testes em sua máquina local, siga os passos abaixo.
 
-#### Pré-requisitos
-
-Certifique-se de ter o [Node.js](https://nodejs.org/) (versão LTS) e o `npm` instalados em seu sistema.
 
 #### 1. Clonar o Repositório
 
@@ -27,7 +24,7 @@ cd playwright-mentoria
 #### 2. Instalar as Dependências
 Todas as dependências (incluindo o Playwright) estão listadas no arquivo package.json.
 ```
-npm install
+npm init playwright@latest
 ```
 Este comando fará o download e a instalação de todos os pacotes necessários e dos browsers suportados pelo Playwright.
 
